@@ -1,0 +1,109 @@
+.dblayout .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+  }
+
+ .sidebar {
+    width: 100%;
+    max-width: 200px;
+    position: fixed;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    overflow-y: scroll !important;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+  background-color: lightgrey;
+}
+  .sidebar::-webkit-scrollbar-thumb{
+    background: #fff; 
+    border-radius: 30px;
+    height: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track{
+  height: 10px;
+}
+  .sidebar .logo_img {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;    
+    border-radius: 0px 0px 10px 0px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 15px;
+    position: relative;
+}
+  .sidebar ul {
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+  }
+
+    .sidebar ul  a{
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+     /* color: rgba(0, 0, 0, 0.2) !important; */
+    text-decoration-line: none !important;
+}
+
+.sidebar ul .active,
+.sidebar ul a:hover {
+    background-color:#F2AF29;
+    color: #fff !important;
+    border-radius: 12px!important;
+}
+
+ .sidebar ul a li {
+    display: flex;
+    align-items: center;
+}
+
+ .sidebar ul .active li img,
+ .sidebar ul a:hover li img {
+    filter:invert(100%) sepia(49%) saturate(0%) hue-rotate(24deg) brightness(188%) contrast(-7%);
+}
+
+ .sidebar ul a li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+    .side_wrapper {
+    margin-left: 200px;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+
+
+.logout_btn{
+width: 100%;
+}
+
+  .logout_btn{
+   position: absolute;
+   top: 85%;
+   background: #FFE4E4!important;
+   color: #FF0000!important;
+   font-weight: bold!important;
+   border: none !important;
+   height: 45px!important;
+  }
+
+  /* .table td {
+    font-family: 'Avertastd-Regular';
+    color: #000000!important;
+    padding: 20px !important;
+
+    }
+ */
+ .header_list{
+ padding: 20px;
+ border: 1px solid #ECECEC;
+}
